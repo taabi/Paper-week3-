@@ -19,6 +19,10 @@
 		13B1C97B1968830200C02F2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B1C9631968830200C02F2A /* UIKit.framework */; };
 		13B1C9831968830200C02F2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13B1C9811968830200C02F2A /* InfoPlist.strings */; };
 		13B1C9851968830200C02F2A /* Paper_week3_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1C9841968830200C02F2A /* Paper_week3_Tests.m */; };
+		13B1C9911968831200C02F2A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1C98F1968831200C02F2A /* MainViewController.m */; };
+		13B1C9921968831200C02F2A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B1C9901968831200C02F2A /* MainViewController.xib */; };
+		13B1C9961968A06E00C02F2A /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B1C9941968A06E00C02F2A /* testViewController.m */; };
+		13B1C9971968A06E00C02F2A /* testViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B1C9951968A06E00C02F2A /* testViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		13B1C9801968830200C02F2A /* Paper(week3)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paper(week3)Tests-Info.plist"; sourceTree = "<group>"; };
 		13B1C9821968830200C02F2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13B1C9841968830200C02F2A /* Paper_week3_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paper_week3_Tests.m; sourceTree = "<group>"; };
+		13B1C98E1968831200C02F2A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		13B1C98F1968831200C02F2A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		13B1C9901968831200C02F2A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		13B1C9931968A06E00C02F2A /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		13B1C9941968A06E00C02F2A /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		13B1C9951968A06E00C02F2A /* testViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,9 @@
 				13B1C96F1968830200C02F2A /* AppDelegate.m */,
 				13B1C9711968830200C02F2A /* Images.xcassets */,
 				13B1C9661968830200C02F2A /* Supporting Files */,
+				13B1C98E1968831200C02F2A /* MainViewController.h */,
+				13B1C98F1968831200C02F2A /* MainViewController.m */,
+				13B1C9901968831200C02F2A /* MainViewController.xib */,
 			);
 			path = "Paper(week3)";
 			sourceTree = "<group>";
@@ -122,6 +135,9 @@
 				13B1C9681968830200C02F2A /* InfoPlist.strings */,
 				13B1C96B1968830200C02F2A /* main.m */,
 				13B1C96D1968830200C02F2A /* Paper(week3)-Prefix.pch */,
+				13B1C9931968A06E00C02F2A /* testViewController.h */,
+				13B1C9941968A06E00C02F2A /* testViewController.m */,
+				13B1C9951968A06E00C02F2A /* testViewController.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B1C96A1968830200C02F2A /* InfoPlist.strings in Resources */,
+				13B1C9921968831200C02F2A /* MainViewController.xib in Resources */,
+				13B1C9971968A06E00C02F2A /* testViewController.xib in Resources */,
 				13B1C9721968830200C02F2A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B1C9701968830200C02F2A /* AppDelegate.m in Sources */,
+				13B1C9911968831200C02F2A /* MainViewController.m in Sources */,
+				13B1C9961968A06E00C02F2A /* testViewController.m in Sources */,
 				13B1C96C1968830200C02F2A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
