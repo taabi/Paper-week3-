@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *newsScrollview;
 
 @property (weak, nonatomic) IBOutlet UIImageView *menuImage;
+@property (weak, nonatomic) IBOutlet UIImageView *newsImage;
 
 @end
 CGPoint distance;
@@ -39,6 +40,12 @@ CGPoint distance;
     self.newsScrollview.contentSize = CGSizeMake(1450, 260);
     
     self.menuImage.alpha = 0.2;
+    
+   
+    
+    [UIView animateWithDuration:.4 delay:0.2 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        self.newsImage.center = CGPointMake(1446, self.newsImage.center.y);
+    } completion: NULL];
 }
 
 - (void)didReceiveMemoryWarning

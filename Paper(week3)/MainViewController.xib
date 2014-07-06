@@ -8,6 +8,7 @@
             <connections>
                 <outlet property="headlineView" destination="lkg-h0-oZ3" id="mbC-qY-KRr"/>
                 <outlet property="menuImage" destination="ulT-NI-Cre" id="x0Y-Qe-OGp"/>
+                <outlet property="newsImage" destination="yZN-Ka-Djf" id="LAo-gJ-8Ri"/>
                 <outlet property="newsScrollview" destination="x9G-Li-L8d" id="ppw-Rf-Cot"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -35,7 +36,7 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news" id="yZN-Ka-Djf">
-                                    <rect key="frame" x="6" y="5" width="2889" height="507"/>
+                                    <rect key="frame" x="155.5" y="9" width="2889" height="507"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 </imageView>
                             </subviews>
