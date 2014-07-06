@@ -10,3 +10,6 @@ If you're dragging down, releasing the headline should animate the headline to t
 If you're dragging up, releasing the headline should animate the headline to the up position
 If you're dragging the headline up past the top, the friction should increase
 
+Demo
+![animated gif](https://raw.githubusercontent.com/taabi/Paper-week3-/master/demo.gif)
+
